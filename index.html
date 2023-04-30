@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Github Finder</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="ph ph-github-logo"></i>
+            <h1>Github Finder</h1>
+        </div>
+
+        <div class="turn-mode">
+            <button class="light-mode">Light <i class="ph ph-sun"></i></button>
+            <button class="dark-mode">Dark <i class="ph ph-moon-stars"></i></button>
+        </div>
+    </header>
+
+    <form>
+        <label for="github-user"><i class="ph ph-magnifying-glass"></i></label>
+        <input type="text" id="github-user" placeholder="Pesquise um usuário do GitHub..."> <button><i
+                class="ph ph-paper-plane-tilt"></i></button>
+    </form>
+
+    <main>
+        <div class="main-content">
+            <div class="user-info">
+                <img src="https://github.com/analuisadev.png" class="user-photo" alt="Github User Photo">
+                <h1 class="user-name">Ana Luisa Santos</h1>
+                <a href="https://github.com/analuisadev" target="_blank" class="user-name-profile-name">@analuisadev</a>
+                <p class="user-bio">Front-End Developer</p>
+            </div>
+
+
+            <div class="user-container">
+                <div class="user-repositories">
+                    <span>Repos</span>
+                    <span class="repositories">32</span>
+                </div>
+                <div class="user-followers">
+                    <span>Followers</span>
+                    <span class="followers">109</span>
+                </div>
+                <div class="user-following">
+                    <span>Following</span>
+                    <span class="following">40</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="user-pronouns">
+           <div class="user-location"><i class="ph ph-map-pin"></i> <span class="location">Salvador, Bahia, Brasil</span></div> 
+           <div class="user-location"><i class="ph ph-buildings"></i> <span class="company">Not Available</span></div> 
+        </div>
+        
+    </main>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</body>
+
+</html>

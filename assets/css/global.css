@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --Dark-Mode: #141D2F;
+    --Light-Mode: #F6F8FF;
+    --User-Info-Light-Mode: #E5E7EB;
+    --White: #FFFFFF;
+    --Dark-Light: #1E2A47;
+    --Box-Shadow: #121929;
+    --Text-Color-Form: #9CA3AF;
+    --Color-Link: #0679F3;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    background: var(--Dark-Mode);
+}
