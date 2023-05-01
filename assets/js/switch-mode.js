@@ -4,19 +4,19 @@ const SwitchButton = {
     htmlBody: document.body,
 
     lightMode() {
-        SwitchButton.btnLightMode.classList.add('hide')
-        SwitchButton.btnDarkMode.classList.remove('hide')
+        this.btnLightMode.classList.add('hide')
+        this.btnDarkMode.classList.remove('hide')
         
-        SwitchButton.htmlBody.classList.remove('dark')
-        SwitchButton.htmlBody.classList.add('light')
+        this.htmlBody.classList.remove('dark')
+        this.htmlBody.classList.add('light')
     },
 
     darkMode() {
-        SwitchButton.btnLightMode.classList.remove('hide')
-        SwitchButton.btnDarkMode.classList.add('hide')
+        this.btnLightMode.classList.remove('hide')
+        this.btnDarkMode.classList.add('hide')
 
-        SwitchButton.htmlBody.classList.remove('light')
-        SwitchButton.htmlBody.classList.add('dark')
+        this.htmlBody.classList.remove('light')
+        this.htmlBody.classList.add('dark')
     }
 }
 
