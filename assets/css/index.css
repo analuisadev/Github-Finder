@@ -91,7 +91,6 @@ input {
 
 input::placeholder {
     color: var(--Text-Color-Form);
-   
 }
 
 .github-search button {
@@ -140,6 +139,7 @@ main {
 .user-name,
 .user-bio {
     color: var(--White);
+    text-align: center;
 }
 
 a {

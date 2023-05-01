@@ -30,8 +30,12 @@
     background-color: var(--Light-Mode);
 }
 
-.light .switch-mode button {
+.light .switch-mode button, .light input {
     color: var(--Dark-Light);
+}
+
+.light input:focus {
+    caret-color: var(--Dark-Light);
 }
 
 .light .logo h1,
