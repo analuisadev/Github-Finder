@@ -13,15 +13,53 @@
     --Dark-Light: #1E2A47;
     --Box-Shadow: #121929;
     --Text-Color-Form: #9CA3AF;
+    --Text-Color-Light: #374151;
     --Color-Link: #0679F3;
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 .dark {
     background-color: (--Dark-Light);
-} 
+}
+
+.dark .logo .ph-github-logo {
+    color: var(--White);
+}
 
 .light {
     background-color: var(--Light-Mode);
+}
+
+.light .switch-mode button {
+    color: var(--Dark-Light);
+}
+
+.light .logo h1,
+.logo .ph-github-logo {
+    color: var(--Dark-Light);
+}
+
+.light .github-search,
+.light main {
+    background-color: var(--White);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+}
+
+.light .ph-magnifying-glass,
+.light .ph-paper-plane-tilt {
+    color: var(--Color-Link);
+}
+
+.light .user-info h1 {
+    color: var(--Dark-Light);
+}
+
+.light .user-bio, .light .user-container span, .light .user-pronouns {
+    color: var(--Text-Color-Light);
+}
+
+.light .user-container {
+    background-color: #E5E7EB;
 }
 
 body {
