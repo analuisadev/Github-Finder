@@ -13,20 +13,20 @@
     <title>Github Finder</title>
 </head>
 
-<body>
+<body class="dark">
     <header>
         <div class="logo">
             <i class="ph ph-github-logo"></i>
             <h1>Github Finder</h1>
         </div>
 
-        <div class="turn-mode">
+        <form class="switch-mode">
             <button class="light-mode">Light <i class="ph ph-sun"></i></button>
-            <button class="dark-mode">Dark <i class="ph ph-moon-stars"></i></button>
-        </div>
+            <button class="dark-mode hide">Dark <i class="ph ph-moon-stars"></i></button>
+        </form>
     </header>
 
-    <form>
+    <form class="github-search">
         <label for="github-user"><i class="ph ph-magnifying-glass"></i></label>
         <input type="text" id="github-user" placeholder="Pesquise um usuário do GitHub..."> <button><i
                 class="ph ph-paper-plane-tilt"></i></button>
@@ -66,6 +66,7 @@
     </main>
 
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="assets/js/switch-mode.js"></script>
 </body>
 
 </html>

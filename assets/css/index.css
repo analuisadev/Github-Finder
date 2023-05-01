@@ -10,7 +10,7 @@ header {
 
 header,
 .logo,
-.turn-mode,
+.switch-mode,
 .main-content,
 .user-info {
     display: flex;
@@ -43,7 +43,7 @@ button:hover {
     opacity: .8;
 }
 
-.turn-mode button {
+.switch-mode button {
     border: 0;
     background-color: transparent;
     text-transform: uppercase;
@@ -53,15 +53,15 @@ button:hover {
     font-weight: 600;
 }
 
-.turn-mode {
+.switch-mode {
     gap: .8rem;
 }
 
-.dark-mode {
+.hide {
     display: none;
 }
 
-form {
+.github-search {
     justify-content: center;
     margin: auto;
     width: 70.0rem;
@@ -70,7 +70,7 @@ form {
     padding: 1.8rem;
 }
 
-form,
+.github-search,
 .user-container,
 .user-repositories,
 .user-followers,
@@ -94,12 +94,12 @@ input::placeholder {
    
 }
 
-form button {
+.github-search button {
     border: none;
     background-color: transparent;
 }
 
-form i {
+.github-search i {
     color: var(--Text-Color-Form);
     font-size: 2rem;
 }
@@ -187,7 +187,7 @@ a:hover {
         width: 80%;
     }
 
-    form {
+    .github-search {
         display: flex;
         width: 90%;
         justify-content: center;

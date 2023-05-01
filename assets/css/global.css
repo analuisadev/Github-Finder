@@ -16,6 +16,14 @@
     --Color-Link: #0679F3;
 }
 
+.dark {
+    background-color: (--Dark-Light);
+} 
+
+.light {
+    background-color: var(--Light-Mode);
+}
+
 body {
     font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
